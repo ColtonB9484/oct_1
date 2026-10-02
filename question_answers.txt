@@ -1,0 +1,37 @@
+Which functions return values?
+	The calculate_average() function returns a double value
+	The determine_grade() function returns a character
+
+Which function has a void return type?
+	The display_result() function returns a void type
+
+What arguments are passed to calculate_average()?
+	Three user input integars are passed as arguments to calculate_average()
+
+
+Numbering the Control Flow in the order they occur.
+	main begins.
+	the user enters three scores
+	main calls calculate_average
+	calculate_average returns a value
+	determine_grade receives the average
+	determine_grade returns a letters
+	display_result prints the final result
+	control returns to main
+	The program ends
+
+Task C:
+	The program fails to compile after i removed the prototype 'determine_grade'
+	It says there is an 'implicit declaration of function determine_grade' and
+	that there is 'conflicting types for determin_grade'
+
+Part 2 questions:
+Why does the compiler need a function prototype?
+	Because if there is no protoype function, functions must be called in the
+	order they are presented
+
+Where does execution continue after a function returns?
+	On the line below where the function was called
+
+Does the physical order of function definition matter when prototes are present?
+	No 
