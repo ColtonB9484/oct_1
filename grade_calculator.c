@@ -5,6 +5,7 @@
 
 double calculate_average(int score1, int score2, int score3);
 char determine_grade(double grade);
+int add(int a, int b);
 void display_result(double average, char grade);
 
 int main(void) {
@@ -30,6 +31,8 @@ int main(void) {
 		break;
 	}
 	
+	printf("Test add: add(5, 6) = %d\n", add(5,6));
+
 	return EXIT_SUCCESS;
 }
 
@@ -49,6 +52,10 @@ char determine_grade(double grade) {
 	} else {
 		return 'F';
 	}
+}
+
+int add(int a, int b) {
+	return a + b;
 }
 
 void display_result(double average, char grade) {
