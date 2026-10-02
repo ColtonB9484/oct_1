@@ -1,3 +1,6 @@
+## Author
+Colton Bettinson
+
 #  C Projects
 
 This repository contains C programming exercises and projects for CS 1380.
